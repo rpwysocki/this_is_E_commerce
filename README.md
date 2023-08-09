@@ -15,23 +15,28 @@
 3. Run the seed data with 'npm run seed' to populate the database with test data.
 4. Start the server by running `node start` or 'nodemon start'.
 5. Use an API testing tool like Insomnia Core to interact with the API endpoints.
-6. The API routes can be accessed at `http://localhost:3001/api`.
+6. The API routes can be accessed at `localhost:3001/api`.
 ## API Routes
 
-- `GET /api/categories` - Get all categories.
-- `GET /api/categories/:id` - Get a category by ID.
-- `POST /api/categories` - Create a new category.
-- `PUT /api/categories/:id` - Update a category.
-- `DELETE /api/categories/:id` - Delete a category.
+-  Get all categories: `GET localhost:3001/api/categories`
+-  Get a category by ID: `GET localhost:3001/api/categories/(enter id number here)`
+-  Create a new category: `POST localhost:3001/api/categories` 
+-  Update a category: `PUT localhost:3001/api/categories/(enter id number here)`
+-  Delete a category: `DELETE localhost:3001/api/categories/(enter id number here)` 
 
-- `GET /api/products` - Get all products.
-- `GET /api/products/:id` - Get a product by ID.
-- `POST /api/products` - Create a new product.
-- `PUT /api/products/:id` - Update a product.
-- `DELETE /api/products/:id` - Delete a product.
+-  Get all products: `GET localhost:3001/api/products`
+-  Get a product by ID: `GET localhost:3001/api/products/(enter id number here)` 
+-  Create a new product: `POST localhost:3001/api/products`
+-  Update a product: `PUT localhost:3001/api/products/(enter id number here)`
+-  Delete a product: `DELETE localhost:3001/api/products/(enter id number here)` 
 
-- `GET /api/tags` - Get all tags.
-- `GET /api/tags/:id` - Get a tag by ID.
-- `POST /api/tags` - Create a new tag.
-- `PUT /api/tags/:id` - Update a tag.
-- `DELETE /api/tags/:id` - Delete a tag.
+-  Get all tags: `GET localhost:3001/api/tags`
+-  Get a tag by ID: `GET localhost:3001/api/tags/(enter id number here)`
+-  Create a new tag: `POST localhost:3001/api/tags` 
+-  Update a tag: `PUT localhost:3001/api/tags/(enter id number here)`
+-  Delete a tag: `DELETE localhost:3001/api/tags/(enter id number here)` 
+## Links
+
+Walkthrough video link: https://drive.google.com/file/d/1Q2RBY1Dy5z7GZ4Y7aNgu5e93l28G4wXX/view
+
+Github repo link: https://github.com/rpwysocki/this_is_E_commerce
